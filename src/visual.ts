@@ -157,5 +157,9 @@ Inference - Same Window only
     },
     "drilldown": {
         "roles": ["cats"]
-    }
+   // 👇 Abdullah's edit: dynamic background + resize
+this.target.style.backgroundColor = "#90caf9"; // light blue background
+this.target.style.width = (options.viewport.width * 0.8) + "px";
+this.target.style.height = (options.viewport.height * 0.6) + "px";
+ }
 */
